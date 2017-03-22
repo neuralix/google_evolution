@@ -1,7 +1,7 @@
 Paper: https://arxiv.org/abs/1703.01041
 
 <p align="center">
-  <img fig_network.png>
+  <img /fig_network.png>
 </p>
 
 1. Overwrite `{TORCHVISON_PATH}/__init__.py` with new one.
