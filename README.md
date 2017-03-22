@@ -1,6 +1,5 @@
 ### Dependences
-pytorch
-scikit-learn
+pytorch, scikit-learn
 
 ### Steps
 1. Overwrite `{TORCHVISON_PATH}/__init__.py` with new one.
