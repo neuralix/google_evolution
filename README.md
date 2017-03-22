@@ -1,10 +1,10 @@
 ![alt](fig_network.png)
 
-* Dependences
+### Dependences
 pytorch
 scikit-learn
 
-* Steps
+### Steps
 1. Overwrite `{TORCHVISON_PATH}/__init__.py` with new one.
 2. Copy `evolution.py` to `{TORCHVISON_PATH}/models`.
 3. Run.
@@ -16,8 +16,8 @@ import torchvision
 print(torchvision.__file__)
 ```
 
-* Note
+### Note
 Channel number is not in the paper. It is set by me.
 
-* Original Paper
+### Original Paper
 https://arxiv.org/abs/1703.01041 (Google Brain)
