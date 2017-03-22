@@ -17,7 +17,7 @@ print(torchvision.__file__)
 ```
 
 ### Note
-Channel number is not in the paper. It is set by me.
+Numbers of channels are not in the paper. It is set by me.
 
 ### Original Paper
 https://arxiv.org/abs/1703.01041 (Google Brain)
