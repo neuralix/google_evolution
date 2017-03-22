@@ -72,30 +72,7 @@ def main():
     else:
         print("=> creating model '{}'".format(args.arch))
         model = models.__dict__[args.arch]()
-    #sys.exit()
 
-    #parameters = itertools.ifilter(lambda p: p.requires_grad, model.parameters())
-    #for param in model.parameters():
-    #    param.requires_grad = False
-    #    # Replace the last fully-connected layer
-    #    # Parameters of newly constructed modules have requires_grad=True by default
-    #print( model )
-    # for 224x224 alexnet
-    # model.classifier._modules['6'] = nn.Linear(4096, 12)
-    # for 512x512 alexnet
-
-
-
-    # model.classifier._modules['1'] = nn.Linear(57600, 4096) #512
-    model.fc = nn.Linear(512, 12) #512
-
-
-
-
-    # for squeezenet(official)
-    #model.classifier._modules['1'] = nn.Conv2d(512, 12, kernel_size=(1, 1), stride=(1, 1))
-    # for squeezenet(gsp-27 version)
-    # model.conv2 = nn.Conv2d(512, 12, kernel_size=(1, 1), stride=(1, 1))
     print( model )
 
     if args.arch.startswith('alexnet') or args.arch.startswith('vgg'):
