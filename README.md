@@ -1,6 +1,6 @@
 Paper: https://arxiv.org/abs/1703.01041
 
-![A cute kitten](fig_network.png?style=centerme)
+![alt](fig_network.png)
 
 1. Overwrite `{TORCHVISON_PATH}/__init__.py` with new one.
 2. Copy `evolution.py` to `{TORCHVISON_PATH}`.
