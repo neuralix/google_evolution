@@ -4,10 +4,10 @@ pytorch, scikit-learn
 ### Steps
 
 1. Copy 2 files to {TORCHVISON_PATH}/models.
-`cp {__init__.py,evolution.py} {TORCHVISON_PATH}/models`.
+```cp {__init__.py,simple.py} {TORCHVISON_PATH}/models```.
 
 2. Run.
-`python main.py -a evolution {CIFAR10_DATA_DIR}`
+```python main.py -a evolution {CIFAR10_DATA_DIR}```
 
 cf. How to know {TORCHVISON_PATH}?
 ```
