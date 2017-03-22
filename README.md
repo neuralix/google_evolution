@@ -2,6 +2,9 @@
 pytorch, scikit-learn
 
 ### Steps
+
+Don't follow it. I have to correct it.
+
 1. Overwrite `{TORCHVISON_PATH}/models/__init__.py` with new one.
 2. Copy `evolution.py` to `{TORCHVISON_PATH}/models`.
 3. Run.
