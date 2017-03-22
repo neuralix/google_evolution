@@ -1,6 +1,4 @@
 import torch.nn as nn
-import torch.utils.model_zoo as model_zoo
-
 
 __all__ = ['Evolution', 'evolution']
 
@@ -57,11 +55,5 @@ class Evolution(nn.Module):
 
 
 def evolution(pretrained=False):
-    r"""AlexNet model architecture from the
-    `"One weird trick..." <https://arxiv.org/abs/1404.5997>`_ paper.
-
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
-    """
     model = Evolution()
     return model
