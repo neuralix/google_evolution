@@ -2,7 +2,7 @@
 pytorch, scikit-learn
 
 ### Steps
-1. Overwrite `{TORCHVISON_PATH}/__init__.py` with new one.
+1. Overwrite `{TORCHVISON_PATH}/models/__init__.py` with new one.
 2. Copy `evolution.py` to `{TORCHVISON_PATH}/models`.
 3. Run.
 `python main.py -a evolution {CIFAR10_DATA_DIR}`
