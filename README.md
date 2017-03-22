@@ -1,8 +1,6 @@
 ![alt](fig_network.png)
 
 ### Dependences
-pytorch
-scikit-learn
 
 
 ### Steps
