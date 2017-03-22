@@ -1,6 +1,8 @@
 Paper: https://arxiv.org/abs/1703.01041
 
-![alt tag](fig_network.png)
+<p align="center">
+  <img fig_network.png>
+</p>
 
 1. Overwrite `{TORCHVISON_PATH}/__init__.py` with new one.
 2. Copy `evolution.py` to `{TORCHVISON_PATH}`.
