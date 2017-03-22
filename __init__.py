@@ -4,6 +4,7 @@ architectures:
 -  `AlexNet`_
 -  `VGG`_
 -  `ResNet`_
+-  `Evolution`_
 
 You can construct a model with random weights by calling its constructor:
 
@@ -26,6 +27,7 @@ PyTorch :mod:`torch.utils.model_zoo`. These can  constructed by passing
 .. _AlexNet: https://arxiv.org/abs/1404.5997
 .. _VGG: https://arxiv.org/abs/1409.1556
 .. _ResNet: https://arxiv.org/abs/1512.03385
+.. _Evolution: https://arxiv.org/pdf/1703.01041
 """
 
 from .alexnet import *
