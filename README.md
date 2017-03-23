@@ -11,7 +11,7 @@ This implements one of result networks from [Large-scale evolution of image clas
 ## Training
 1. Copy two files to {torchvision_path}/models.
 ```bash
-cp {__init__.py,simple.py} {torchvision_path}/models
+cp {__init__.py,evloution.py} {torchvision_path}/models
 ```
 
 2. Run
