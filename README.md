@@ -9,7 +9,7 @@ This implements one of result networks from [Large-scale evolution of image clas
 - Download [CIFAR10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 ## Training
-1. Copy two files to {torchvision_path}/models.
+1. Copy two files to `{torchvision_path}/models`
 ```bash
 cp {__init__.py,evloution.py} {torchvision_path}/models
 ```
