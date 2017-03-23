@@ -9,12 +9,14 @@ This implements one of result networks from [Large-scale evolution of image clas
 
 ## Steps
 1. Copy two files to {torchvision_path}/models.
-
-```cp {__init__.py,simple.py} {torchvision_path}/models```
+```bash
+cp {__init__.py,simple.py} {torchvision_path}/models
+```
 
 2. Run
-
-```python main.py -a evolution {cifar10_data_dir}```
+```bash
+python main.py -a evolution {cifar10_data_dir}
+```
 
 cf. How to know {torchvision_path}?
 ```
