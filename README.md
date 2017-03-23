@@ -30,7 +30,7 @@ print(torchvision.__file__)
 You need to adjust these for better performance.
 
 2. Used CIFAR10 is image file directory. It's not {CIFAR-10 {python,Matlab,binary} version.
-You should convert it to conventional image files. It you want it, you have to use your proper dataloader.
+You should convert it to conventional image files. It you don't want it, you have to use your proper dataloader.
 
 ## Implemented network
 ![alt](fig_network.png)
