@@ -8,7 +8,7 @@ This implements one of result networks from [Large-scale evolution of image clas
 - Install [scikit-learn](http://scikit-learn.org/stable/)
 - Download [CIFAR10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 
-## Steps
+## Training
 1. Copy two files to {torchvision_path}/models.
 ```bash
 cp {__init__.py,simple.py} {torchvision_path}/models
