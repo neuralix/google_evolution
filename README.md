@@ -29,7 +29,9 @@ print(torchvision.__file__)
 1. The numbers of channels are not in the paper and it is set by me similar with vgg.
 You need to adjust these for better performance.
 
-2. Used CIFAR10 is image file dataset. It's not CIFAR-10 {python,Matlab,binary} version.
+2. If you want to adsjust learning rate on-the-fly, create lr.txt file in same directory with main.py and just set the value before some epoch.
+
+3. Used CIFAR10 is image file dataset. It's not CIFAR-10 {python,Matlab,binary} version.
 You should convert it to conventional image files. It you don't want it, you have to use your proper dataloader.
 
 ## Implemented network
