@@ -1,7 +1,7 @@
 Exotic structured image classifier
 =====================================
 
-This implements one of resulted networks from [Large-scale evolution of image classifiers](https://arxiv.org/abs/1703.01041) by Esteban Real, et. al.
+This implements one of result networks from [Large-scale evolution of image classifiers](https://arxiv.org/abs/1703.01041) by Esteban Real, et. al.
 
 ## Requirements
 - Install [pytorch](http://pytorch.org/) (I recommend anaconda environment.)
