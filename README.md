@@ -35,8 +35,6 @@ You need to adjust these for better performance.
 You should convert it to conventional image files. It you don't want it, you have to use your proper dataloader.
 
 ## Implemented network
-![alt](fig_network.png)
-
 <p align="center">
-<img src="https://raw.githubusercontent.com/neuralix/google_evolution/master/fig_network.png" width="120%"/>
+<img src="https://raw.githubusercontent.com/neuralix/google_evolution/master/fig_network.png" width="50%"/>
 </p>
