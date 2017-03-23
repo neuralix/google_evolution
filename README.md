@@ -1,4 +1,4 @@
-### Dependences
+### Dependency
 pytorch, scikit-learn
 
 ### Steps
