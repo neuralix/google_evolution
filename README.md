@@ -6,6 +6,7 @@ This implements one of result networks from [Large-scale evolution of image clas
 ## Requirements
 - Install [pytorch](http://pytorch.org/) (I recommend anaconda environment.)
 - Install [scikit-learn](http://scikit-learn.org/stable/)
+- Download [CIFAR10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 ## Steps
 1. Copy two files to {torchvision_path}/models.
@@ -25,8 +26,11 @@ print(torchvision.__file__)
 ```
 
 ## Note
-Numbers of channels are not in the paper and it is set by me similar with vgg.
+1. Numbers of channels are not in the paper and it is set by me similar with vgg.
 You need to adjust these for better performance.
+
+2. Used CIFAR10 is image file directory. It's not {CIFAR-10 {python,Matlab,binary} version.
+You should convert it to conventional image files. It you want it, you have to use your proper dataloader.
 
 ## Implemented network
 ![alt](fig_network.png)
