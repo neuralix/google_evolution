@@ -23,7 +23,7 @@ print(torchvision.__file__)
 ```
 
 ## Note
-Numbers of channels are not in the paper and it is set by me.
+Numbers of channels are not in the paper and it is set by me similar with vgg.
 You need to adjust these for better performance.
 
 ## Implemented network
